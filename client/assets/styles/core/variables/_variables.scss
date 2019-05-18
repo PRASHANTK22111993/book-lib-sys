@@ -1,0 +1,23 @@
+// Color Variables
+$white: #FFFFFF;
+$black: #000000;
+$light-grey: #dfdfdf;
+$blue: #1e90ff;
+$dark-grey: #4e4c4a;
+
+// Image Path
+$img-path:'/client/assets/images/';
+
+// Media Queries
+// UP
+$xsmall-up: '(min-width: 544px)';
+$small-up: '(min-width: 768px)';
+$tablet-up: '(min-width: 1024px)';
+$medium-up: '(min-width: 992px)';
+$large-up: '(min-width: 1200px)';
+// DOWN
+$xsmall-down: '(max-width: 543px)';
+$small-down: '(max-width: 767px)';
+$tablet-down: '(max-width: 1023px)';
+$medium-down: '(max-width: 991px)';
+$large-down: '(max-width: 1199px)';

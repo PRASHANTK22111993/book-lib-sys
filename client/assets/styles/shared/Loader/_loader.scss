@@ -1,0 +1,32 @@
+.loader-component {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    z-index: 1051;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    @include box-shadow(0, 4px, 6px, 0, rgba(130, 130, 130, .5));
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        background: $white;
+        width: 240px;
+        margin: -120px 0 0 -120px;
+        .loader-img {
+            text-align: center;
+            img {
+                width: 80px;
+            }
+        }
+        .loader-text {
+            color: $dark-grey;
+            text-align: center;
+            @include font-size-line-height(22px, 32px);
+        }
+    }
+}

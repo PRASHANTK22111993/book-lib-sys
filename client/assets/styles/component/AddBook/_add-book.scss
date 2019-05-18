@@ -1,0 +1,20 @@
+.add-book-container {
+    width: 80%;
+    margin: 20px auto;
+
+    .cta-btn {
+        @include set-bg-and-fg-color($blue, $white);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+
+        @media #{$xsmall-down} {
+            width: 100%;
+        }
+    }
+}

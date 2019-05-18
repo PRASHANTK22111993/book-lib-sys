@@ -1,0 +1,46 @@
+.header {
+    overflow: hidden;
+    background-color: $white;
+    padding: 10px;
+
+    a {
+        float: left;
+        color: $black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        @include font-size-line-height(18px, 25px);
+        border-radius: 4px;
+
+        &:hover {
+            @include set-bg-and-fg-color($light-grey, $black);
+        }
+
+        &.active {
+            @include set-bg-and-fg-color($blue, $white);
+        }
+
+        &.header-logo {
+            @include font-size-font-weight(25px, bold);
+
+            img {
+                width: 40px;
+                height: 25px;
+            }
+        }
+
+        @media #{$xsmall-down} {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+
+    .header-right {
+        float: right;
+
+        @media #{$xsmall-down} {
+            float: none;
+        }
+    }
+}

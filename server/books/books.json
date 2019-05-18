@@ -1,0 +1,44 @@
+{
+    "books":[
+        {
+            "uniqueId": 10001, 
+            "bookName": "Half Boyfriend",
+            "bookAuthor": "Chetan Bhagat",
+            "bookPublisher": "Academic Publisher",
+            "bookCount": "10",
+            "bookDescription": "Description 1"
+        },
+        {
+            "uniqueId": 10002, 
+            "bookName": "One Indian Girl",
+            "bookAuthor": "Chetan Bhagat",
+            "bookPublisher": "24by7 Publishing",
+            "bookCount": "7",
+            "bookDescription": "Description 2"
+        },
+        {
+            "uniqueId": 10003, 
+            "bookName": "Until Forever",
+            "bookAuthor": "M V Kasi",
+            "bookPublisher": "Modern Publication",
+            "bookCount": "34",
+            "bookDescription": "Description 3"
+        },
+        {
+            "uniqueId": 10004, 
+            "bookName": "A Girl To remember",
+            "bookAuthor": "Ajay K Pandey",
+            "bookPublisher": "Sashi Publication",
+            "bookCount": "4",
+            "bookDescription": "Description 4"
+        },
+        {
+            "uniqueId": 10005, 
+            "bookName": "Shunya : A Novel",
+            "bookAuthor": "Robin Sharma",
+            "bookPublisher": "ABC Publication",
+            "bookCount": "100",
+            "bookDescription": "Description 5"
+        }
+    ]
+}

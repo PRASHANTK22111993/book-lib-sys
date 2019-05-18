@@ -1,0 +1,45 @@
+// Used to set the Box Shadow
+@mixin box-shadow($hozOffSet, $verOffSet, $blurRad, $spreadRadius, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow: inset $hozOffSet $verOffSet $blurRad $spreadRadius $color;
+        -moz-box-shadow: inset $hozOffSet $verOffSet $blurRad $spreadRadius $color;
+        box-shadow: inset $hozOffSet $verOffSet $blurRad $spreadRadius $color
+    }
+
+    @else {
+        -webkit-box-shadow: $hozOffSet $verOffSet $blurRad $spreadRadius $color;
+        -moz-box-shadow: $hozOffSet $verOffSet $blurRad $spreadRadius $color;
+        box-shadow: $hozOffSet $verOffSet $blurRad $spreadRadius $color
+    }
+}
+
+// Used to set the Font Size and Height
+@mixin font-size-line-height($font-size, $font-line-height) {
+    font-size: $font-size;
+    line-height: $font-line-height;
+}
+
+// Used to set the Font Size and Height
+@mixin font-size-font-weight($font-size, $font-weight) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+
+// Used to set the Background and Fore Ground Color  
+@mixin set-bg-and-fg-color($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+}
+
+@mixin flexbox-display() {
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}

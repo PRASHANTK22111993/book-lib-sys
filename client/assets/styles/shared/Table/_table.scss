@@ -1,0 +1,22 @@
+.main-table {
+    border-collapse: collapse;
+    width: 100%;
+
+    .table-data {
+        border: 1px solid $blue;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .table-head {
+        text-transform: uppercase;
+    }
+    
+    .table-row {
+        cursor: pointer;
+    }
+
+    .table-row:nth-child(even) {
+        background-color: $white;
+    }
+}

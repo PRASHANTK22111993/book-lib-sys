@@ -1,0 +1,21 @@
+%footer-main-shared {
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-main {
+    @extend %footer-main-shared;
+    display: block;
+
+    .footer-content {
+        @include set-bg-and-fg-color($white, $black);
+        @extend %footer-main-shared;
+        font-size: 18px;
+        border-top: 1px solid $white;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+}

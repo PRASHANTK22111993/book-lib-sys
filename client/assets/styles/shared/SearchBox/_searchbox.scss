@@ -1,0 +1,35 @@
+.search-wrapper {
+    width: 100%;
+    margin: 20px auto;
+    .search-box {
+        width: 100%;
+        position: relative;
+        @include flexbox-display;
+        $height: 50px;
+        .searchTerm {
+            width: 100%;
+            border: 3px solid $blue;
+            border-right: none;
+            padding: 5px;
+            height: $height;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            color: $black;
+            &:focus {
+                color: black;
+            }
+            font-size: 18px;
+        }
+
+        .searchButton {
+            width: 50px;
+            height: $height;
+            border: 1px solid $blue;
+            @include set-bg-and-fg-color($blue, $white);
+            text-align: center;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+}
