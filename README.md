@@ -1,8 +1,8 @@
-#book-lib-sys
+# book-lib-sys
 This is a sample online book library web application which is used to search book, 
 edit book and view all books.
 
-- [Online Sample Book Libaray](#book-lib-sys)
+- [Online Sample Book Library](#book-lib-sys)
   - [Introduction](#introduction)
     - [Library and Frameworks Used](#libray-frameworks)
     - [Development mode](#development-mode)
@@ -12,8 +12,7 @@ edit book and view all books.
     - [Quick Guide](#quick-guide)
     - [Limitation](#limitation)
 
-
-##Introduction
+## Introduction
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -97,7 +96,8 @@ All the source code will be inside **root** directory. Inside root directory the
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-User will be landing to the homepage of the application where user can search for books
+User will be landing to the homepage of the application where user can search for books, add or edit books
+
     - Search by name/author/publication (Enter search term "chetan")
     - It will list the books available using search term.
     - Click on any of the book from list then, user will be taken to the 
