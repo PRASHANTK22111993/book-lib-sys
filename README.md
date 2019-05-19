@@ -7,6 +7,8 @@ edit book and view all books.
     - [Library and Frameworks Used](#library-and-frameworks-used)
     - [Development mode](#development-mode)
   - [Quick Start](#quick-start)
+    - [Client App](#client-app)
+    - [Server App](#server-app)
   - [Documentation](#documentation)
     - [Folder Structure](#folder-structure)
     - [Quick Guide](#quick-guide)
@@ -53,11 +55,11 @@ npm start
 
 It will the app in the development mode.<br>
 
-#### Client App
+### Client App
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Server App
+### Server App
 
 Open [http://localhost:8080/api/getBooksList](http://localhost:8080/api/getBooksList) to 
 view it in the browser.
