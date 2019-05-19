@@ -1,8 +1,8 @@
-# book-lib-sys
+# Online Sample Book Library
 This is a sample online book library web application which is used to search book, 
 edit book and view all books.
 
-- [Online Sample Book Library](#book-lib-sys)
+- [Online Sample Book Library](#online-sample-book-library)
   - [Introduction](#introduction)
     - [Library and Frameworks Used](#library-and-frameworks-used)
     - [Development mode](#development-mode)
