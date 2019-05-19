@@ -12,6 +12,7 @@ edit book and view all books.
   - [Documentation](#documentation)
     - [Folder Structure](#folder-structure)
     - [Quick Guide](#quick-guide)
+    - [Screens](#screens)
     - [Limitation](#limitation)
 
 ## Introduction
@@ -106,6 +107,14 @@ User will be landing to the homepage of the application where user can search fo
         Edit Page where the book details can be updated.
     - Alternatively, user can add the book by clicking on Add/Edit menu present at the header menu.
     - View All Option can be used to view all the books availble in the librray.
+
+### Screens
+
+<img alt="Homepage" src="screens/home-page.PNG" width="100%" height="300" />
+<img alt="Homepage Search" src="screens/home-page-search.PNG" width="100%" height="300" />
+<img alt="Edit Book Page" src="screens/edit-book.PNG" width="100%" height="300" />
+<img alt="All Book Page" src="screens/all-books.PNG" width="100%" height="300" />
+<img alt="Add Book Page" src="screens/add-book.PNG" width="100%" height="300" />
 
 ### Limitation
 
