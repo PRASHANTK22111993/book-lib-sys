@@ -4,7 +4,7 @@ edit book and view all books.
 
 - [Online Sample Book Library](#book-lib-sys)
   - [Introduction](#introduction)
-    - [Library and Frameworks Used](#libray-frameworks)
+    - [Library and Frameworks Used](#library-and-frameworks-used)
     - [Development mode](#development-mode)
   - [Quick Start](#quick-start)
   - [Documentation](#documentation)
